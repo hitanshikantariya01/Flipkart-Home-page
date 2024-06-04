@@ -1,0 +1,345 @@
+* {
+   margin: 0%;
+   padding: 0%;
+   font-family:arial,sans-sarif;
+}
+
+header {
+   display: flex;
+   width: 1536px;
+   height: 50px;
+   padding-top: 12px;
+
+
+}
+
+.logo {
+   margin-left: 10px;
+}
+.search{
+   padding-left: 40px;
+}
+button{
+   height: 40px;
+    border-radius: 7px; 
+   background-color: rgb(239, 244, 254);
+   border: none;
+   cursor: pointer;
+}
+button i{
+   padding-left: 10px;
+  
+}
+
+input {
+   width: 687px;
+   height: 40px;
+   border-radius: 7px;
+   background-color: rgb(239, 244, 254);
+   border: none;
+   
+}
+
+input::placeholder {
+   justify-content: center;
+   font-size: 17.9px;
+   font-family: Arial, sans-serif;
+   padding-left: 10px;
+   color: #6e6e6e;
+}
+
+
+ul {
+   display: flex;
+   
+
+}
+
+ul li {
+   list-style: none;
+   padding-top: 10px;
+
+}
+ul li img{
+   margin-right: 9px;
+   display: inline;
+  
+}
+
+ul li a {
+   text-decoration: none;
+   color: black;
+   font-size: 17px;
+   margin-left: 70px;
+   font-family: Arial, sans-serif;
+
+}
+ul li i{
+   margin-right: 15px;
+}
+
+main {
+   background-color: rgba(110, 106, 106, 0.127);
+}
+
+.box {
+   padding-top: 10px;
+
+}
+
+.box_1 {
+   max-width: 97vw;
+   background-color: #FFFFFF;
+   margin: auto;
+}
+
+.container_1 {
+   height: 110px;
+   padding: 10px;
+   max-width: 80vw;
+   margin: auto;
+   display: flex;
+   background-color: #FFFFFF;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.imgs {
+   width: 64px;
+   cursor: pointer;
+   height: 64px;
+}
+
+.imgs:hover {
+   width: 70px;
+   cursor: pointer;
+   height: 70px;
+}
+
+.items {
+   font-feature-settings: normal;
+   max-width: 12vw;
+   font-weight:600;
+   color: rgb(15, 15, 15);
+   font-size: 14px;
+
+}
+
+.item_name {
+   display: inline-flex;
+   text-align: center;
+   align-items: center;
+}
+
+.item_name p {
+   padding-left: 10px;
+}
+
+.a {
+   padding-left: 20px;
+}
+
+.b {
+   margin: 0px 0px 0px 20px;
+}
+
+.m {
+   padding: 0px 0px 0px 13px;
+}
+
+.hero img {
+   padding-top: 15px;
+   padding-left: 15px;
+   width: 97vw;
+   height: 249.48px;
+   padding-bottom: 10px;
+   margin: auto;
+}
+
+.container_2 {
+
+   background-color: #FFFFFF;
+   max-width: 97vw;
+   margin: auto;
+}
+
+h3 {
+   padding: 10px 0 10px 10px;
+}
+
+.card {
+   
+   display: flex;
+   overflow-x: auto;
+   justify-content: space-between;
+   
+   
+}
+.card::-webkit-scrollbar{
+   width: 0px;
+}
+
+
+.card_box{
+   
+   height: 245px;
+   width: 195.4px ;
+   margin: 26px 0;
+   border:1px solid #52515237;
+   border-radius: 4px;
+   margin-left: 20px;
+   justify-content: space-between;
+}
+.img1
+{
+   
+   width: 160.4px;
+   height: 180.4px;
+   padding: 5px 20px 2px 16px;
+  
+     
+}
+.img2
+{
+   
+   width: 100px;
+   height: 180px;
+   padding: 5px 220px 2px 45px;
+     
+}
+.img3
+{
+   
+   width: 150.4px;
+   height: 150.4px;
+   padding: 30px 40px 7px 20px;
+}
+.img4
+{
+   
+   width: 140.4px;
+   height: 180.4px;
+   padding: 5px 45px 7px 22px;
+}
+.img5
+{
+   
+   width: 120.4px;
+   height: 180.4px;
+   padding: 5px 45px 7px 37px;
+     
+}
+.img6
+{
+   
+   width: 160.4px;
+   height: 170.4px;
+   padding: 10px 45px 12px 18px;
+     
+}
+.img7
+{
+   width: 160.4px;
+   height: 150.4px;
+   padding: 20px 45px 23px 15px;
+     
+}
+.img8
+{
+   
+   width: 160.4px;
+   height: 150.4px;
+   padding: 20px 45px 22px 16px;
+     
+}
+
+
+.line1{
+  
+   padding: 5px 0 4px 53px;
+}
+.line2{
+   padding-left: 70px;
+   font-weight: bold;
+}
+.line15{
+  
+   padding: 5px 0 4px 35px;
+}
+.line16{
+   padding-left: 50px;
+   font-weight: bold;
+}
+.line17{
+  
+   padding: 5px 0 4px 43px;
+}
+.line18{
+   padding-left: 50px;
+   font-weight: bold;
+}
+.line4{
+   padding:0 0 4px 30px;
+}
+.line5{
+   padding-left: 50px;
+   font-weight: bold;
+
+}
+.line6{
+   padding:0 0 4px 60px;
+}
+.line7{
+   padding-left: 50px;
+   font-weight: bold;
+}
+.line8{
+   padding: 0 0 4px 20px;
+   
+}
+.line9{
+   padding-left: 60px;
+   font-weight: bold;
+}
+.line10{
+   padding:0 0 4px 60px;
+}
+.line11{
+   padding-left: 50px;
+   font-weight: bold;
+}
+.line12{
+   padding: 0 0 4px 55px;
+}
+.line13{
+   padding-left: 67px;
+   font-weight: bold;
+}
+
+
+.span
+{
+   margin: 0px 0px 60px 0px;
+}
+
+.container_3 {
+
+   background-color: #FFFFFF;
+   max-width: 97vw;
+   margin: auto;
+}
+.box_2{
+   margin-top: 15px;
+}
+.card_1{
+   display: flex;
+   height: 264px;
+}
+
+footer{
+   background-color: rgba(0, 0, 0, 0.9);
+   font-size: 13px;
+   margin-top: 0.9px;
+   
+}
+
